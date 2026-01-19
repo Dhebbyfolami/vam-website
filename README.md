@@ -68,7 +68,7 @@ Built as a clean, responsive, Framer-inspired static website to showcase service
 
 You can preview the site by:
 
-- Opening index.html directly in your browser
+- Opening **index.html** directly in your browser
 
 - OR using VS Code Live Server (recommended)
 
