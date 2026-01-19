@@ -1,0 +1,16 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Zip archives
+*.zip
+
+# Node / tooling (future-proof)
+node_modules/
