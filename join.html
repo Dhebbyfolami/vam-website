@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VAM — Clients</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+ <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+       <a class="brand" href="index.html" aria-label="VAM Home">
+      
+      <span style="font-size:28px;font-weight:900;"> <img src="./assets/VAM logo.png" alt="VAM Logo"/></span>
+    </a>
+
+      <button class="nav-toggle" type="button" aria-label="Toggle Menu">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="clients.html">Clients</a>
+        <a href="join.html">Join Our Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="btn btn-primary" href="contact.html">
+          Get Started <span class="arrow">↗</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Clients Hero -->
+    <section class="hero hero--clients">
+      <div class="container hero-grid">
+
+        <!-- Left -->
+        <div>
+          <h1 class="clients-title">Join Our Team</h1>
+
+          <a class="btn btn-dark clients-pill" href="https://forms.gle/WcGYNLdYf7W1q3pb9">
+            Apply Now
+          </a>
+
+          <div class="trust-row" style="margin-top:22px;">
+            <div class="avatars" aria-label="Trusted avatars">
+              <img src="./assets/hero1.avif" alt="" />
+              <img src="./assets/hero2.avif" alt="" />
+              <img src="./assets/hero3.avif" alt="" />
+              <img src="./assets/hero4.avif" alt="" />
+            </div>
+
+            <div class="trust-text">
+              <span class="pipe">|</span>
+              <span>Trusted by 20+ active Businesses</span>
+            </div>
+          </div>
+
+          <p class="hero-sub" style="margin-top:14px;">
+            Serving over 50 Satisfied Professionals
+          </p>
+        </div>
+
+        <!-- Right -->
+        <div class="hero-right">
+          <img
+            src="./assets/home image1.png"
+            alt="Virtual assistant working"
+            style="width: 520px; height:auto;"
+          />
+        </div>
+
+      </div>
+  </main>
+
+  <section class="join-section" id="apply">
+  <div class="container">
+
+    <div class="join-intro">
+      <p>Take a moment to carefully fill out the below form.</p>
+      <p>Once done we will reach out to set up a interview.</p>
+      <p>We are Looking forward to meeting with you.</p>
+    </div>
+
+    <div class="jobs-grid" id="jobs">
+      <!-- Job Card 1 -->
+      <article class="job-card">
+        <div class="job-head">
+          <div class="job-logo">J</div>
+          <div>
+            <h3 class="job-title">New Job Opportunity — Part-Time Remote Video Editing &amp; Social Media Posting</h3>
+            <p class="job-subtitle">Short-form editing + posting across TikTok, Instagram, Facebook, and YouTube</p>
+          </div>
+        </div>
+
+        <p class="job-desc">
+          We are looking to hire a part-time remote video editor who can also handle social media posting across multiple platforms.
+          If you have experience creating short-form content, editing videos, and managing posts on TikTok, Instagram, Facebook, or YouTube,
+          we want to hear from you.
+        </p>
+
+        <div class="job-meta">
+          <p><strong>Position:</strong> Part-time (Remote)</p>
+          <p><strong>Role:</strong> Video Editing + Social Media Posting</p>
+          <p><strong>Hours:</strong> Flexible</p>
+          <p><strong>Experience:</strong> Short-form content preferred</p>
+        </div>
+
+        <a class="job-apply" href="https://forms.gle/WcGYNLdYf7W1q3pb9">Apply Now</a>
+
+        <p class="job-tip">
+          Tip: Edit this card to add your company logo or change the accent color. Remove the logo placeholder if you add an image.
+        </p>
+      </article>
+
+      <!-- Job Card 2 -->
+      <article class="job-card">
+        <div class="job-head">
+          <div class="job-logo">J</div>
+          <div>
+            <h3 class="job-title">New Job Opportunity — Part-Time Remote Video Editing &amp; Social Media Posting</h3>
+            <p class="job-subtitle">Short-form editing + posting across TikTok, Instagram, Facebook, and YouTube</p>
+          </div>
+        </div>
+
+        <p class="job-desc">
+          We are looking to hire a part-time remote video editor who can also handle social media posting across multiple platforms.
+          If you have experience creating short-form content, editing videos, and managing posts on TikTok, Instagram, Facebook, or YouTube,
+          we want to hear from you.
+        </p>
+
+        <div class="job-meta">
+          <p><strong>Position:</strong> Part-time (Remote)</p>
+          <p><strong>Role:</strong> Video Editing + Social Media Posting</p>
+          <p><strong>Hours:</strong> Flexible</p>
+          <p><strong>Experience:</strong> Short-form content preferred</p>
+        </div>
+
+        <a class="job-apply" href="https://forms.gle/WcGYNLdYf7W1q3pb9">Apply Now</a>
+
+        <p class="job-tip">
+          Tip: Edit this card to add your company logo or change the accent color. Remove the logo placeholder if you add an image.
+        </p>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <footer class="footer">
+    <div class="container">© <span id="y"></span> VAM</div>
+  </footer>
+
+  <script src="./script.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+ 
+
+  <!-- Small page-specific style tweaks -->
+  <style>
+    
+  </style>
+</body>
+</html>
